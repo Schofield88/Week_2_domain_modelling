@@ -25,7 +25,7 @@ class Notebook
   end
 
   def find(added_note_name)
-    @notebook.select { |tag| tag }
+    @notebook.select { |notes| added_note_name }
   end
 
 end
