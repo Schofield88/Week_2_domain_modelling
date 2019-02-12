@@ -1,7 +1,7 @@
 class Note
 
   def new(your_note_here)
-    @note = your_note_here 
+    @note = your_note_here
   end
 
   def tag(your_tag)
@@ -24,8 +24,8 @@ class Notebook
    @notebook << note_name
   end
 
-  def find(added_note_name)
-    @notebook.select { |notes| added_note_name }
+  def find(note_tag)
+    @notebook.select { |notes| note_tag }
   end
 
 end
