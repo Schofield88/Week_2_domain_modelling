@@ -1,7 +1,7 @@
 class Note
 
-  def new
-    note = ""
+  def new(your_note_here)
+    @note = your_note_here 
   end
 
   def tag(your_tag)
